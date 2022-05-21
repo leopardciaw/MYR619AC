@@ -10,7 +10,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-name: Build OpenWrt R619AC
+name: Build OpenWrt MYR619AC
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
 #    paths:
 #      - 'r619ac.config'
   schedule:
-    - cron: 30 8 */20 * *
+    - cron: 10 12 */20 * *
 #          分 时 日 月 周5
 #   - cron: 0 8 */15 * *
 #  watch:
@@ -39,7 +39,7 @@ env:
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: true
+  UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
