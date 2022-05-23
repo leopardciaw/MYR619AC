@@ -20,6 +20,9 @@
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/open-mesh-mirror/batman-adv.git package/batman-adv
+git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
+git clone https://github.com/leopardciaw/mypackage2.git package/mypackage2
+
 
 # 增加ssr（上述kenzok8/openwrt-packages已包含）
 # git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
@@ -30,3 +33,6 @@ git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git packag
 
 # CONFIG_PACKAGE_luci-app-filebrowser=y
 git clone https://github.com/immortalwrt/openwrt-filebrowser.git package/luci-app-filebrowser
+
+# luci-app-poweroff关闭路由器
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
